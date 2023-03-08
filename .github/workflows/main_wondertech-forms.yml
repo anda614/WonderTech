@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'wondertech-forms'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B3921E74B4244D9CA9D8198A4DBF7D7D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D67050DD965B452BAD3B6C0285BFA8C7 }}
           package: .
