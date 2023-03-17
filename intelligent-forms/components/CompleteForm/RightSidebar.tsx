@@ -6,7 +6,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const RightSidebar = () => {
   const [documentImage, setDocumentImage] = useState<File>();
-  const [setIdImage] = useState<File>(); //idImage am scos fiindca dadea eroare ca nu e folosit
+  //const [setIdImage] = useState<File>(); //idImage am scos fiindca dadea eroare ca nu e folosit
   const [numPages, setNumPages] = useState(0);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -34,7 +34,7 @@ const RightSidebar = () => {
       const file = fileInput.files?.[0];
       if (!file) return;
 
-      setIdImage(file);
+      //setIdImage(file);
     });
 
     fileInput.click();
