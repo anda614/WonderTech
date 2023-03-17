@@ -64,6 +64,7 @@ function Register() {
           password: pass,
         },
       ]);
+      alert('User created.');
     } else alert("Passwords don't match");
   };
 
