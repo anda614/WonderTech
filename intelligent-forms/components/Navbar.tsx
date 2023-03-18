@@ -2,16 +2,14 @@ import Link from 'next/link';
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-
 type Props = {
   children?: ReactNode;
   title?: string;
 };
 
 const Layout = ({ children }: Props) => {
-  
   const router = useRouter();
-  
+
   const navbarStyles = {
     navbar: {
       backgroundColor: '#333',
@@ -46,6 +44,9 @@ const Layout = ({ children }: Props) => {
             Create Form
           </Link>{' '}
           |{' '}
+          {/* <Link href="/api/auth/signin" style={navbarStyles.linkStyles}>
+            SIGN IN
+          </Link> */}
           <button onClick={() => router.push('/api/auth/signin')}>SIGN IN</button>
           <Link href="/register" style={navbarStyles.linkStyles}>
             REGISTER
