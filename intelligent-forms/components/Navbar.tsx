@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
-
 type Props = {
   children?: ReactNode;
   title?: string;

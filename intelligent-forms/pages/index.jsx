@@ -2,7 +2,6 @@ import { signOut, useSession } from 'next-auth/react';
 //import { useRouter } from 'next/router';
 //import getUserData from './api/get-user-data';
 import { useState, useEffect } from 'react';
-
 import Link from 'next/link';
 import Layout from '../components/Navbar';
 import BrowserUrlInput from '../components/BrowserUrlInput';
