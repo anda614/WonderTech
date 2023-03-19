@@ -7,6 +7,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: [],
+    unoptimized: true,
   },
   env: {
     JWT_SECRET_TOKEN: process.env.JWT_SECRET_TOKEN,
