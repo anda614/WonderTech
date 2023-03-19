@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
+import navbar from '../styles/navbar.module.css';
+import appLogo from '../images/app-logo.png';
+import Image from 'next/image';
 
 type Props = {
   children?: ReactNode;
@@ -8,46 +11,54 @@ type Props = {
 };
 
 const Layout = ({ children }: Props) => {
-  const navbarStyles = {
-    navbar: {
-      backgroundColor: '#333',
-      color: '#fff',
-      display: 'flex',
-      padding: '1rem',
-      alignItems: 'center',
-    },
-    linkStyles: {
-      color: '#fff',
-      textDecoration: 'none',
-      margin: '0 1rem',
-    },
-  };
+  // const navbarStyles = {
+  //   navbar: {
+  //     backgroundColor: '#333',
+  //     color: '#fff',
+  //     display: 'flex',
+  //     padding: '1rem',
+  //     alignItems: 'center',
+  //   },
+  //   linkStyles: {
+  //     color: '#fff',
+  //     textDecoration: 'none',
+  //     margin: '0 1rem',
+  //   },
+  // };
 
   return (
     <div>
       <Head>
-        <title>Intelligent Forms</title>
+        <title>WonderTech Intelligent Forms</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <header>
-        <nav style={navbarStyles.navbar}>
-          <Link href="/" style={navbarStyles.linkStyles}>
-            Home
-          </Link>{' '}
-          <Link href="/my-forms" style={navbarStyles.linkStyles}>
-            My Forms
-          </Link>{' '}
-          <Link href="/create-form" style={navbarStyles.linkStyles}>
-            Create Form
-          </Link>{' '}
-          |{' '}
-          <Link href="/api/auth/signin" style={navbarStyles.linkStyles}>
-            SIGN IN
-          </Link>
-          <Link href="/register" style={navbarStyles.linkStyles}>
-            REGISTER
-          </Link>
+        <nav className={navbar.main}>
+          <Image className={navbar.appLogo} src={appLogo} alt="App Logo" width="100" height="20"></Image>
+          <div className={navbar.allLinks}>
+            {' '}
+            <Link className={navbar.link} href="/">
+              Home
+            </Link>
+            <Link className={navbar.link} href="/my-forms">
+              My Forms
+            </Link>
+            <Link className={navbar.link} href="/create-form">
+              Create Form
+            </Link>{' '}
+            |{' '}
+            <button className={navbar.authButton} id={navbar.signInButton}>
+              <Link className={navbar.authLink} href="/api/auth/signin">
+                Sign In
+              </Link>
+            </button>
+            <button className={navbar.authButton}>
+              <Link className={navbar.authLink} href="/register">
+                Register
+              </Link>
+            </button>
+          </div>
         </nav>
       </header>
       {children}

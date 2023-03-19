@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/* #630000; */
+/* #fef5ac */
+.main {
+  position: sticky;
+  background-color: #fcf4b8;
+  color: #fff;
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  font-family: 'Poppins';
+  font-size: 12px;
+  color: black;
+}
+
+.appLogo {
+  margin-right: 41%;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.link:hover {
+  color: #8f1818;
+  background-color: #fff9cb;
+  transition: 0.5s;
+  height: 100px;
+}
+
+.authButton {
+  background-color: #630000;
+  border-radius: 50px;
+  border-color: black;
+  border-style: hidden;
+  border-width: 0.5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.authButton:hover {
+  background-color: #8f1818;
+}
+
+#signInButton {
+  margin-right: 10px;
+}
+
+.authLink {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
