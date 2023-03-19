@@ -4,7 +4,6 @@ module.exports = withCSS();
 
 const nextConfig = {
   reactStrictMode: true,
-  images.unoptimized = true,
   swcMinify: true,
   images: {
     domains: [],
