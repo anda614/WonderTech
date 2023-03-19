@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 .content {
   background-color: #1e1e1e;
   display: flex;
@@ -14,13 +15,13 @@
 }
 .paragraph {
   color: #fef5ac;
-  font-family: 'Inter';
+  font-family: 'Poppins';
   text-align: center;
   padding-left: 10%;
 }
 .form {
   background-color: white;
-  font-family: 'Inter';
+  font-family: 'Poppins';
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   padding-left: 95px;
@@ -63,12 +64,13 @@ p.registerMessage {
 }
 
 .termsConditionsText {
-  font-family: 'Inter';
+  font-family: 'Poppins';
   font-size: 10px;
   color: #630000;
 }
 
 .submitButton {
+  font-family: 'Poppins';
   background-color: #630000;
   border-radius: 10px;
   color: white;

@@ -14,6 +14,10 @@ const nextConfig = {
     NEXTAUTH_URL: process.env.NEXTAUTH_URL,
     NEXT_AUTH_SECRET: process.env.NEXT_AUTH_SECRET,
   },
+  basePath: '',
+  pages: {
+    '/api/auth/[...nextauth]': { private: true },
+  },
 };
 
 module.exports = nextConfig;

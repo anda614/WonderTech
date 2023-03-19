@@ -2,9 +2,9 @@ import { useRouter } from 'next/router';
 
 function FormDetail() {
   const router = useRouter();
-  const formId = router.query.formId;
+  const id = router.query.id;
 
-  return <h1>Detail about form {formId}</h1>;
+  return <h1>Detail about form {id}</h1>;
 }
 
 export default FormDetail;

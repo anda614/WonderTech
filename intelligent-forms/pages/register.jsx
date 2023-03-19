@@ -92,8 +92,8 @@ function Register() {
         </form>
         <div className={register.registerPageDecor}>
           <Image className={register.registerPageImage} src={registerPageImage} alt="Register Page Image - Documents" width="100" height=""></Image>
-          <p className={register.paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p className={register.paragraph}>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p className={register.paragraph}>Create your account now and you&apos;ll have lots of form creation options ready to assist you!</p>
+          <p className={register.paragraph}>Save time and make your clients happy with this groundbreaking app!</p>
         </div>
       </div>
     </div>
@@ -101,53 +101,3 @@ function Register() {
 }
 
 export default Register;
-
-// export default function Register() {
-//   return (
-//     <div>
-//       <div>
-//         <div>
-//           <label for="firstName">Account Name </label>
-//           <input type="text" id="firstName" placeholder="Account Name" />
-//         </div>
-//         <div>
-//           <label for="email">Email </label>
-//           <input type="email" id="email" placeholder="Email" />
-//         </div>
-//         <div>
-//           <label for="address">Address </label>
-//           <input type="text" id="address" placeholder="Address" />
-//         </div>
-//         <div>
-//           <label for="password">Password </label>
-//           <input type="password" id="password" placeholder="Password" />
-//         </div>
-//         <div>
-//           <label for="confirmPassword">Confirm Password </label>
-//           <input type="password" id="confirmPassword" placeholder="Confirm Password" />
-//         </div>
-//       </div>
-//       <div>
-//         <button
-//           onClick={() => {
-//             if (document.getElementById('password').value === document.getElementById('confirmPassword').value) {
-//               if (
-//                 createUser([
-//                   {
-//                     accName: document.getElementById('firstName').value,
-//                     address: document.getElementById('address').value,
-//                     email: document.getElementById('email').value,
-//                     password: document.getElementById('password').value,
-//                   },
-//                 ])
-//               )
-//                 alert('User created.');
-//             } else alert("Passwords don't match.");
-//           }}
-//         >
-//           Register
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }
