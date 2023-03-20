@@ -2,29 +2,32 @@ import { Flex, Box, Button } from '@chakra-ui/react';
 import Link from 'next/link';
 import appLogo2 from '../images/app-logo2.png';
 import Image from 'next/image';
+import navbar2 from '../styles/navbar2.module.css';
+
+import React, { ReactNode } from 'react';
 
 export default function Layout() {
   return (
-    <Flex backgroundColor="#630000" flexDirection="column" height="100vh" width="30vh" p={10}>
+    <Flex className={navbar2.all} backgroundColor="#630000" flexDirection="column" height="100vh" width="30vh" p={10}>
       <Image src={appLogo2} alt="App Logo" height="30"></Image>
-      <Box>
-        <Button>
-          <Link href="/">Home</Link>
-        </Button>
+      <Box><br></br><br></br><br></br><br></br>
+        <Button className={navbar2.authButton} backgroundColor="#630000">
+          <Link className={navbar2.lcolor} href="/" >Home</Link>
+        </Button><br></br><br></br><br></br><br></br>
       </Box>
       <Box>
-        <Button>
-          <Link href="/my-forms">My Forms</Link>
-        </Button>
+        <Button className={navbar2.authButton} backgroundColor="#630000" >
+          <Link className={navbar2.lcolor} href="/my-forms" >My Forms</Link>
+        </Button><br></br><br></br><br></br><br></br>
       </Box>
       <Box>
-        <Button>
-          <Link href="/my-forms">Delete Form</Link>
-        </Button>
+        <Button className={navbar2.authButton} backgroundColor="#630000">
+          <Link className={navbar2.lcolor} href="/my-forms">Delete Form</Link>
+        </Button><br></br><br></br><br></br><br></br>
       </Box>
       <Box>
-        <Button>
-          <Link href="/my-forms">Update Form</Link>
+        <Button className={navbar2.authButton} backgroundColor="#630000">
+          <Link className={navbar2.lcolor} href="/my-forms">Update Form</Link>
         </Button>
       </Box>
     </Flex>

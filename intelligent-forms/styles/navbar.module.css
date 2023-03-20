@@ -3,7 +3,7 @@
 /* #fef5ac */
 .main {
   position: sticky;
-  background-color: #fcf4b8;
+  background-color: #EEEBDD;
   color: #fff;
   display: flex;
   padding: 0.5rem;
@@ -45,6 +45,22 @@
 }
 
 .authButton:hover {
+  background-color: #8f1818;
+}
+
+.authButon {
+  color:#fff;
+  background-color: #630000;
+  border-radius: 50px;
+  border-color: black;
+  border-style: hidden;
+  border-width: 0.5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.authButon:hover {
   background-color: #8f1818;
 }
 
