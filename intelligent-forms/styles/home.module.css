@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.homeRectangule1 {
+  position: absolute;
+  width: 1846px;
+  height: 2020.66px;
+  left: 0%;
+  top: 0%;
+  border-radius: 1px;
+  background-color: #333333;
+}
+.homeRectangule2 {
+  position: relative;
+  width: 2515px;
+  z-index: -1;
+  height: 1500px;
+  left: -700px;
+  top: -970px;
+  background-color: #333333;
+  transform: rotate(-33deg);
+}
+.homeRectangule3 {
+  position: absolute;
+  width: 1846px;
+  height: 1200px;
+  left: 0%;
+  top: 57px;
+  background-color: #f8f8f8;
+}
+.homeRectangule4 {
+  position: absolute;
+  width: 1846px;
+  height: 1104px;
+  left: 0%;
+  top: 1280px;
+  background-color: #f8f8f8;
+}
+
+.main {
+  font-family: 'Poppins';
+}
+.buttons {
+  font-family: 'Poppins';
+  color: white;
+  background-color: #630000;
+  border-radius: 50px;
+  border-color: black;
+  border-style: hidden;
+  border-width: 0.5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

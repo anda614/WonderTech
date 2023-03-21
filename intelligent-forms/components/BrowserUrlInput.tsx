@@ -18,7 +18,7 @@ const BrowserUrlInput: React.FC = () => {
 
   return (
     <div>
-      <Input type="text" id="browser-url-input" placeholder="www ..." value={url} onChange={handleInputChange} onKeyPress={handleKeyPress} />
+      <Input type="text" id="browser-url-input" placeholder="enter form URL..." value={url} onChange={handleInputChange} onKeyPress={handleKeyPress} />
     </div>
   );
 };
