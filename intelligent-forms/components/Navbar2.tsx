@@ -4,7 +4,7 @@ import appLogo2 from '../images/app-logo2.png';
 import Image from 'next/image';
 import navbar2 from '../styles/navbar2.module.css';
 
-import React from 'react'; //{ ReactNode } 
+import React from 'react';//{ ReactNode } 
 
 export default function Layout() {
   return (
