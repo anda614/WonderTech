@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.tsx", "pages/index.js", "pages/sign-in.jsx", "pages/api/auth/[...nextauth].js", "components/CreateAccountForm.tsx", "pages/create-form.jsx", "pages/auth/signin.jsx", "pages/api/auth/signin.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.tsx", "pages/index.js", "pages/sign-in.jsx", "pages/api/auth/[...nextauth].js", "components/CreateAccountForm.tsx", "pages/create-form.jsx", "pages/auth/signin.jsx", "pages/api/auth/signin.jsx", "pages/my-forms/index.jsx"],
   "exclude": ["node_modules"]
 }
