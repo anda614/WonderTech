@@ -170,7 +170,7 @@ const Boxes = ({ boxes }: BoxesProps) => {
 };
 
 export default function MyForms() {
-  const [showAddBoxButton, setShowAddBoxButton] = useState(false);
+  //const [showAddBoxButton, setShowAddBoxButton] = useState(false);
   const [boxes, setBoxes] = useState<BoxItem[]>([]);
 
   const handleAddBox = () => {
@@ -185,7 +185,7 @@ export default function MyForms() {
     };
 
     setBoxes([...boxes, newBox]);
-    setShowAddBoxButton(boxes.length < 8);
+    //setShowAddBoxButton(boxes.length < 8);
   };
 
   return (
