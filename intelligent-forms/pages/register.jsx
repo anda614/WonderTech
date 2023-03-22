@@ -5,6 +5,7 @@ import registerLogo from '../images/register-logo.png';
 import registerPageImage from '../images/register-page-image.png';
 import Image from 'next/image';
 import Layout from '../components/Navbar';
+import Link from 'next/link';
 
 import config from '../config';
 const CosmosClient = require('@azure/cosmos').CosmosClient;
@@ -51,6 +52,7 @@ function Register() {
 
   return (
     <div className={register.main}>
+      <Link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"></Link>
       <Layout></Layout>
       <div className={register.content}>
         <form className={register.form} onSubmit={handleSubmit}>

@@ -46,6 +46,9 @@ const Layout = ({ children }: Props) => {
             </Link>
             <Link className={navbar.link} href="/create-form">
               Create Form
+            </Link>
+            <Link className={navbar.link} href="/scan-doc">
+              Scan Doc
             </Link>{' '}
             |{' '}
             <button className={navbar.authButton} id={navbar.signInButton}>

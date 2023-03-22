@@ -1,5 +1,3 @@
-function CreateForm() {
-  return <h1>CreateForm Page</h1>;
+export default function CreateForm() {
+  return <h1>Create form page</h1>;
 }
-
-export default CreateForm;

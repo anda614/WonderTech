@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.main {
+  font-family: 'Poppins';
+  display: inline;
+}
+.messageAndInput {
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.lbl {
+  font-size: 13px;
+}
+.scanButton {
+  background-color: #630000;
+  border-radius: 10px;
+  color: white;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: none;
+  font-family: 'Poppins';
+}
+
+.scanButton:hover {
+  background-color: #a91414;
+}
+
+.scanButton:active {
+  font-size: 13.2px;
+}
+
+.imgInput {
+  margin: 10px;
+}
+
+.key {
+  color: #630000;
+  font-size: 13px;
+}
+
+.value {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.imageAndExtractedInfo {
+  display: flex;
+}
+
+.imageInserted {
+  margin-right: 15%;
+  margin-left: 10%;
+}
+
+.imgMsg {
+  font-size: 10px;
+}
